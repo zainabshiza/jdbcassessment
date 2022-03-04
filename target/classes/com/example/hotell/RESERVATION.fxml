@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotell.RESERVATION">
+   <children>
+      <AnchorPane layoutX="34.0" layoutY="42.0" prefHeight="320.0" prefWidth="542.0">
+         <children>
+            <Button layoutX="227.0" layoutY="243.0" mnemonicParsing="false" text="RESERVE" />
+            <Button layoutX="355.0" layoutY="243.0" mnemonicParsing="false" text="CANCEL" />
+            <Label layoutX="81.0" layoutY="44.0" text="HOTEL NAME" />
+            <Label layoutX="81.0" layoutY="95.0" text="HOTEL ADDRESS" />
+            <Label layoutX="81.0" layoutY="143.0" text="ROOMS NEEDED" />
+            <Label layoutX="81.0" layoutY="183.0" text="STARS" />
+            <TextField layoutX="258.0" layoutY="32.0" />
+            <TextField layoutX="259.0" layoutY="91.0" />
+            <TextField layoutX="260.0" layoutY="148.0" />
+            <TextField layoutX="261.0" layoutY="188.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotell.Usersregister">
+   <children>
+      <AnchorPane layoutX="34.0" layoutY="38.0" prefHeight="333.0" prefWidth="536.0">
+         <children>
+            <Label layoutX="57.0" layoutY="38.0" text="NAME" />
+            <Label layoutX="57.0" layoutY="97.0" text="ADDRESS" />
+            <Label layoutX="57.0" layoutY="158.0" text="GENDER" />
+            <Label layoutX="69.0" layoutY="203.0" text="PASSWORD" />
+            <Label layoutX="77.0" layoutY="247.0" text="CONFIRM PASSWORD" />
+            <Button fx:id="btnregister" layoutX="170.0" layoutY="295.0" mnemonicParsing="false" onAction="#register" text="REGISTER" />
+            <TextField id="tfname" fx:id="tfname" layoutX="170.0" layoutY="34.0" />
+            <TextField id="tfaddress" fx:id="tfaddress" layoutX="185.0" layoutY="93.0" />
+            <TextField id="tfgender" fx:id="tfgender" layoutX="186.0" layoutY="154.0" />
+            <TextField id="tfpassword" fx:id="tfpassword" layoutX="194.0" layoutY="199.0" />
+            <TextField id="tfcpassword" fx:id="tfcpassword" layoutX="222.0" layoutY="243.0" />
+            <Button layoutX="309.0" layoutY="295.0" mnemonicParsing="false" onAction="#cancel" text="CANCEL" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

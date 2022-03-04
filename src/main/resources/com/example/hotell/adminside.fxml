@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="adminside" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotell.Adminside">
+   <children>
+      <AnchorPane layoutX="39.0" layoutY="41.0" prefHeight="327.0" prefWidth="497.0">
+         <children>
+            <Label layoutX="53.0" layoutY="50.0" text="hotel name" />
+            <Label layoutX="52.0" layoutY="75.0" text="address" />
+            <Label layoutX="46.0" layoutY="155.0" text="no of rooms" />
+            <Label layoutX="52.0" layoutY="229.0" text="stars" />
+            <Button fx:id="btnsave" layoutX="39.0" layoutY="265.0" mnemonicParsing="false" onAction="#save" text="SAVE" />
+            <Button fx:id="btnupdate" layoutX="182.0" layoutY="265.0" mnemonicParsing="false" onAction="#update" text="UPDATE" />
+            <TextField id="hname" layoutX="193.0" layoutY="46.0" />
+            <TextField id="haddress" layoutX="193.0" layoutY="80.0" />
+            <TextField id="hrooms" layoutX="193.0" layoutY="151.0" />
+            <TextField id="hstars" layoutX="193.0" layoutY="204.0" />
+            <Button fx:id="btnsearch" layoutX="283.0" layoutY="265.0" mnemonicParsing="false" onAction="#search" text="SEARCH" />
+            <Button fx:id="btndelete" layoutX="405.0" layoutY="265.0" mnemonicParsing="false" onAction="#delete" text="DELETE" />
+            <Label layoutX="63.0" layoutY="29.0" text="HOTEL ID" />
+            <TextField id="hid" layoutX="194.0" layoutY="17.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
